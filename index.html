@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#170d1b">
+  <title>For Ashwini Only ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grain"></div>
+  <div class="ambient a1"></div>
+  <div class="ambient a2"></div>
+  <div id="particles"></div>
+  <audio id="playfulMusic" src="playful.mp3" preload="auto" loop></audio>
+  <audio id="letterMusic" src="hungarian.mp3" preload="auto" loop></audio>
+  <audio id="cheerSound" src="cheer.mp3" preload="auto"></audio>
+  <audio id="fartSound" src="fart.mp3" preload="auto"></audio>
+  <main class="app">
+    <header><span>MADE WITH LOVE</span><span id="stepLabel">A LITTLE JOURNEY ·</span></header>
+    <div class="progress"><i id="progress"></i></div>
+
+    <section class="screen active">
+      <div class="eyebrow">♥ &nbsp; JUST FOR YOU</div>
+      <div class="heart-orbit"><b>♥</b></div>
+      <p class="kicker">TO MY FAVOURITE PERSON</p>
+      <h2>Cheers! To Us <em>Baby.</em></h2>
+      <p class="intro">I made a tiny little adventure for you.<br>There are a few things I want you to discover.</p>
+      <button class="primary" id="start">I'm curious <span>→</span></button>
+      <p class="micro">P.S. Take your time. This is just for you.</p>
+    </section>
+
+    <section class="screen">
+      <div class="eyebrow">CHAPTER ONE · A LITTLE NOTE</div>
+      <h2>A letter, <em>just because.</em></h2>
+      <p class="sub">Some things are better opened slowly.</p>
+      <button class="envelope" id="envelope" aria-label="Open the envelope">
+        <span class="paper"><b>For Baby</b><small>with all my love</small></span><span class="back"></span><span
+          class="front"></span><span class="flap"></span><span class="seal">♥</span>
+      </button>
+      <p class="hint" id="hint">Tap the envelope to open it</p>
+      <div class="letter-note" id="letterNote">
+        <p>My Baby ❤️,
+
+          Sometimes I wonder how one person can become such a big part of another person's life. How someone can go from
+          being just a person you know to becoming the first person you want to talk to, the one you miss in the middle
+          of a random day, and the one whose smile can make everything feel a little better. Somehow, that's what
+          you've become to me. I just want to see you happy when you're around me.
+
+          I don't know if I tell you enough, but I am incredibly lucky to have you in my life. It's not just the big
+          moments that make me love you. It's the little things — your voice, your cuteness, your silly talks,
+          the way you care for me, and even those small moments when we're doing absolutely nothing but somehow
+          everything feels good. I love all of it.
+
+          Maybe, I'm not extraordinary. There will be days when I don't find the right words, when I get things wrong,
+          or when
+          I fail to express what's going on in my heart. But one thing I never want you to doubt is how much you mean to
+          me. I want to keep learning you, understanding you, choosing you, and finding new ways to make you feel loved.
+          Not just on special occasions, but on the most ordinary days too.
+
+          I want that our love is a safe place, a source of comfort, and a reason to smile.
+          It does not matter if it has been 8 years or 80 years, I want our love to stay alive, I want us to
+          give each other reasons to fall in love again and again, and I want us to keep discovering new ways to make
+          each other happy.
+
+          I want us to have countless more memories together — spontaneous plans, long conversations, silly arguments
+          that end in laughter, little adventures, lazy days, tight hugs, and those moments when we look at each other
+          and don't need to say anything. I want to celebrate each other's achievements, stand beside each other through
+          difficult
+          days, and be someone we can always come home to emotionally.
+
+          I want us to struggle together, grow together, have a great career, have an amazing love life, amazing sex
+          life and a great family life.
+
+          If I could make one promise, it would be this: I'll never stop trying to make our love feel special. I don't
+          want us to just count the years; I want us to fill those years with moments worth remembering. I want that we
+          keep
+          falling in love with each other in different ways, at different stages of life, through every version of
+          ourselves.
+
+          Happy Anniversary, my love. Thank you for being you, for being my all-time, everytime person, and for making
+          my world a
+          little more beautiful just by being in it.
+
+          And if life gave me a thousand chances to choose again, I'd still look for you.
+
+          I love you more than you could ever know. ❤️</p>
+        <p class="letter-author">- Anurag Srigyan</p>
+        <button class="text-btn next">There's more for you
+          →</button>
+      </div>
+    </section>
+
+    <section class="screen">
+      <div class="eyebrow">CHAPTER TWO · LITTLE THINGS</div>
+      <h2>Reasons I <em>adore you.</em></h2>
+      <p class="sub">Open each little keepsake. They're all yours.</p>
+      <div class="keepsakes">
+        <button class="keepsake"
+          data-message="Your smile has this unfair ability to make a difficult day feel lighter."><span>✦</span><b>Your
+            smile</b><small>tap to open</small></button>
+        <button class="keepsake"
+          data-message="I love how you make even the simplest moments feel worth remembering."><span>♡</span><b>Your
+            little ways</b><small>tap to open</small></button>
+        <button class="keepsake"
+          data-message="You are my favourite person to talk to, laugh with, and do absolutely nothing with."><span>☾</span><b>Your
+            company</b><small>tap to open</small></button>
+      </div>
+      <div class="message" id="message">Choose a keepsake to reveal a little reason.</div><button
+        class="text-btn next">One more surprise →</button>
+    </section>
+
+    <section class="screen">
+      <div class="eyebrow">Time for some gifts·</div>
+      <h2>But first, some <em>fun.</em></h2>
+      <p class="sub">Choose wisely. There is only one correct answer. 😉</p>
+      <div class="question">
+        <div class="qmark">?</div>
+        <h3>Do you still love me the same after 8 years?</h3>
+        <div class="answers">
+          <button class="answer" data-feedback="Obviously—and somehow, I find a new reason to love you every day. ❤️">
+            Obviously, yes ❤️
+          </button>
+          <button class="answer" data-feedback="More than ever, and I'm excited for every year still ahead of us. 😘">
+            More than ever 😘
+          </button>
+          <button class="answer" data-feedback="Then I'll keep loving you 3000 times—and more, every single day. 💖">
+            I love you 3000 times 💖
+          </button>
+          <button class="answer"
+            data-feedback="You can say it as many times as you want; I'll never get tired of hearing it. ❤️">
+            Do I have to say it twice?
+          </button>
+        </div>
+        <p class="feedback" id="feedback"></p>
+      </div>
+      <button class="text-btn next hidden" id="questionNext">I have something for you →</button>
+    </section>
+
+    <section class="screen">
+      <div class="heart-orbit surprise-heart"><b>✦</b></div>
+      <div class="eyebrow">A LITTLE SURPRISE · JUST FOR YOU</div>
+      <h2>Your next little <em>adventure.</em></h2>
+      <div class="surprise-note">
+        <p>Go to my room and open the single door of my almirah's top row.</p>
+        <p>Your chocolates and flowers are waiting for you. ❤️</p>
+      </div>
+      <button class="text-btn next">One more question for you →</button>
+    </section>
+
+    <section class="screen">
+      <div class="eyebrow">ONE MORE LITTLE QUESTION</div>
+      <h2>What makes you <em>love me still?</em></h2>
+      <p class="sub">Pick the answer that feels most like you. ❤️</p>
+      <div class="question">
+        <div class="qmark">?</div>
+        <h3>After all these years, what keeps your heart choosing me?</h3>
+        <div class="answers">
+          <button class="answer"
+            data-feedback="All the little things about you make me fall in love with you again and again. ❤️">
+            The little things you do
+          </button>
+          <button class="answer" data-feedback="Your smile still feels like my favourite place to come home to. 😊">
+            Your smile and your heart
+          </button>
+          <button class="answer" data-feedback="Life is better, brighter, and so much more fun with you by my side. ✨">
+            You make life more fun
+          </button>
+          <button class="answer" data-feedback="Because you're my person—today, tomorrow, and every day after. 💖">
+            You're simply my person
+          </button>
+        </div>
+        <p class="feedback"></p>
+      </div>
+      <button class="text-btn next hidden">Now go find your gift →</button>
+    </section>
+
+    <section class="screen">
+      <div class="heart-orbit surprise-heart"><b>♥</b></div>
+      <div class="eyebrow">YOUR GIFT · WAITING FOR YOU</div>
+      <h2>A little something <em>just for you.</em></h2>
+      <div class="question gift-guess">
+        <div class="qmark">?</div>
+        <h3>Before you find it... can you guess your gift?</h3>
+        <p class="gift-hint">Hint: Since I love you and I care about you. 💆</p>
+        <div class="answers gift-options">
+          <button class="answer gift-option">Because you stay tired.</button>
+          <button class="answer gift-option" data-correct="true">Because you watch bigboss.</button>
+          <button class="answer gift-option">Because you will look beautiful.</button>
+          <button class="answer gift-option">Because you dont drink water.</button>
+        </div>
+        <p class="gift-fun">Fun thing: Guess it right and our cake is on me—it can be chocolate! Otherwise, I have to
+          taste a different flavour today. 🎂</p>
+        <p class="feedback gift-feedback" aria-live="polite"></p>
+      </div>
+      <div class="surprise-note">
+        <p>Your gift is waiting in my room, in the left drawer of the left almirah.</p>
+        <p>Go find it, Baby. I hope it makes you smile. ❤️</p>
+      </div>
+      <button class="text-btn next hidden">One last thing from my heart →</button>
+    </section>
+
+    <section class="screen">
+      <div class="heart-orbit final-heart"><b>♥</b></div>
+      <div class="eyebrow">THE LAST CHAPTER · FROM MY HEART</div>
+      <h2>My girl <em>always.</em></h2>
+      <div class="final-note">
+        <p>Baby,</p>
+        <p>Thank you for being together with me . For the laughter, fights, the little moments, the memories we've made,
+          and all the ones still waiting for us.</p>
+        <p>I don't need every day to be perfect. I just want the chance to keep making a life full of moments with you —
+          the silly ones, the quiet ones, and the unforgettable ones.</p>
+        <p>Here's to us, to growing together, and to choosing each other again and again.</p>
+        <p class="signature">I love you. Always. <span>♥ Anurag & Ashwini</span></p>
+      </div>
+      <button class="primary" id="celebrate">A little more magic <span>✦</span></button>
+      <p class="micro" id="wish">Happy Anniversary, Baby ❤️</p>
+    </section>
+    <footer class="footer">I love you 3000 times.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
